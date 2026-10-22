@@ -1,0 +1,10 @@
+# Chat-App-Python has no third-party dependencies.
+# It runs entirely on the Python standard library:
+#   - socket     (networking)
+#   - threading  (concurrent clients)
+#   - tkinter    (desktop GUI for the client)
+#
+# tkinter ships with the standard Python installer on Windows and macOS.
+# On Linux, install it via your package manager (see README.md).
+#
+# There is nothing to `pip install`, so this file is intentionally empty of packages.
