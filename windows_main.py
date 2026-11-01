@@ -15,7 +15,7 @@ bg_chat = '#202c33'
 bg_input = '#2a3942'
 bg_button = '#00a884'
 text_main = '#e9edef'
-FONT = ('Arial', 12)
+FONT = ('Arial', 13)
 
 c = None
 msg_queue = queue.Queue()
