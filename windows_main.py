@@ -91,7 +91,7 @@ root.configure(bg=bg_main)
 # FIX 1: Added 'r' before string so Windows backslash doesn't act as escape character
 # Agar logo image nahi mil rahi toh ye line error de sakti hai, isliye try-except bhi lagaya ja sakta hai
 try:
-    p1 = PhotoImage(file=r'C:\Users\Deepanshu Sagar\Downloads\chatapplogo.png')
+    p1 = PhotoImage(file=r'chatapplogo.png')
     root.iconphoto(False, p1)
 except Exception as e:
     print("Icon load nahi hua:", e)
